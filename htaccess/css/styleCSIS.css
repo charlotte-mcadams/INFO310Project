@@ -1,0 +1,503 @@
+/* PAGE TITLE HEADERS */
+@font-face {
+    font-family: Oswald;
+    src: url("../css/Oswald-Light.ttf");
+}
+
+h1 {
+    font-family: Oswald;
+    text-align: center;
+    color: #323543;
+    font-size: 300%;
+    margin-top: 15px;
+}
+
+/* STANDARD LABELS FOR ALL PAGES */
+label {
+    font-family: Oswald;
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+    padding: 12px 30px 0px 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+/* STANDARD BODY FOR ALL PAGES */
+body {
+    background-color: whitesmoke;
+    font-family: Oswald;
+    overflow-x: hidden;
+}
+
+.logo {
+    float: right;
+    opacity: 0.6;
+    padding-right: 50px;
+}
+
+.mainPageLogo {
+    margin-left: 15vw;
+    width: 30vw;
+    height: auto;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* STANDARD TEXTAREA FIELDS FOR ALL PAGES */
+textarea {
+    width: 400px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border: 0px solid goldenrod;
+    font-family: Oswald;
+    resize: none;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+.requestForm {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    width: 900px;
+    border: #323543;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.addForm {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    width: 900px;
+    border: #323543;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+/* ADMIN PAGE SUB-HEADINGS */
+h3 {
+    font-family: Oswald;
+    font-size: 150%;
+    margin-top: 10px;
+}
+
+/* REQUESTS ON ADMIN PAGE LAYOUT*/
+/* REQUIRED FIELDS SPAN */
+.error {
+    font-family: Copperplate;
+    text-align: center;
+    color: red;
+    font-size: 100%;
+}
+
+div [id=user] {
+    left: 90px;
+    position: relative;
+}
+
+/* GENERAL MAIN LAYOUT */
+main {
+    background-color: whitesmoke;
+    font-family: Oswald;
+    padding-left: 85px;
+}
+
+/* FORM LAYOUT */
+button {
+    border-radius: 10px;
+    font-family: Oswald;
+    font-size: 18px;
+    margin: auto;
+}
+
+input {
+    width: 400px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border: 0px solid goldenrod;
+    font-family: Oswald;
+    resize: none;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+input[type=submit] {
+    border: none;
+    color: white;
+    padding: 16px 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 20px;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    font-family: Oswald;
+    font-size: 100%;
+    box-shadow: inset 6px 6px 6px #323543, inset -6px -6px 6px #323543;
+    background: #323543;
+}
+
+input[type=submit]:hover {
+    box-shadow: none;
+    color: #ffbd59;
+    font-size: 18px;
+    width: 200px;
+    height: 20px;
+}
+
+select {
+    background-color: #323543;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    font-family: Oswald;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+div #signIn {
+    padding-top: 1vh;
+    color: #313443;
+    text-decoration: none;
+}
+
+div #signIn p {
+    font-size: 50%;
+    color: #313443;
+    text-decoration: none;
+}
+
+div #signOut {
+    padding-top: 1vh;
+}
+
+div #signOut a {
+    color: #313443;
+    text-decoration: none;
+}
+
+div #signIn a {
+    color: #313443;
+    text-decoration: none;
+}
+
+
+/* TABLE LAYOUT ON ADMIN PAGE */
+table, th, td {
+    font-family: Oswald;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+fieldset {
+    padding: 12px 20px;
+}
+
+div[id=speakers] {
+    display: inline-block;
+    border: 3px solid #73AD21;
+    margin: auto;
+}
+
+input[id=speakers] {
+    background-color: goldenrod;
+    border: none;
+    color: white;
+
+}
+
+label[id=speakers] {
+    padding: 12px
+}
+
+
+/*Navigation Link*/
+/*Basics*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+}
+
+
+#link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.sidebar-navigation {
+    display: inline-block;
+    height: 100vh;
+    width: 80px;
+    background-color: #313443;
+    position: fixed;
+    float: left;
+}
+
+.sidebar-navigation ul {
+    text-align: center;
+    color: white;
+}
+
+.sidebar-navigation ul li {
+    padding: 28px 0;
+    cursor: pointer;
+    transition: all ease-out 120ms;
+}
+
+.sidebar-navigation ul li i {
+    display: block;
+    font-size: 24px;
+    transition: all ease 450ms;
+}
+
+.sidebar-navigation ul li .tooltip {
+    display: inline-block;
+    position: absolute;
+    background-color: #313443;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-top: -26px;
+    left: 90px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.sidebar-navigation ul li .tooltip:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -4px;
+    top: 10px;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background-color: inherit;
+}
+
+.sidebar-navigation ul li:hover {
+    background-color: #22252e;
+}
+
+.sidebar-navigation ul li:hover .tooltip {
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    z-index: 10;
+}
+
+.sidebar-navigation ul li.active {
+    background-color: #22252e;
+}
+
+.sidebar-navigation ul li.active i {
+    color: #98d7ec;
+
+}
+
+/* CALENDAR STUFF*/
+/* Popup container for calendar*/
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-left: -20vw;
+}
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+/*******************************Calendar Top Navigation*********************************/
+
+div#calendar {
+    position: absolute;
+    left: 11.5%;
+    margin: 0px auto;
+    padding: 0px;
+    width: 80vw;
+    height: 80vh;
+    top: 7%;
+    font-family: Helvetica, "Times New Roman", Times, serif;
+    z-index: -1;
+}
+
+div#calendar div.box {
+    position: relative;
+    width: 80vw;
+    height: 40px;
+    background-color: #4f4f4f;
+}
+
+div#calendar div.header {
+    line-height: 40px;
+    vertical-align: middle;
+    position: relative;
+    left: 3vw;
+    top: 0px;
+    width: 74vw;
+    height: 40px;
+    text-align: center;
+
+}
+
+div#calendar div.header a.prev, div#calendar div.header a.next {
+    position: absolute;
+    top: 0px;
+    height: 10vh;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 10px;
+
+}
+
+div#calendar div.header span.title {
+    color: #FFF;
+    font-size: 120%;
+}
+
+
+div#calendar div.header a.prev {
+    left: 0px;
+    font-size: 110%;
+}
+
+div#calendar div.header a.next {
+    right: 0px;
+    font-size: 110%;
+}
+
+
+/*******************************Calendar Content Cells*********************************/
+div#calendar div.box-content {
+    border: 1px solid #484848;
+    border-top: none;
+    width: 79.9vw;
+    vertical-align: top;
+}
+
+
+div#calendar ul.label {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+div#calendar ul.label li {
+    margin-right: 1vw;
+    margin-left: 2.7vw;
+    float: left;
+    list-style-type: none;
+    width: 7.37vw;
+    height: 3vh;
+    line-height: 2vh;
+    vertical-align: middle;
+    text-align: center;
+    color: #757575;
+    font-size: 100%;
+    background-color: transparent;
+}
+
+
+div#calendar ul.dates {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 1.2vw;
+    margin-bottom: 5px;
+}
+
+/** overall width = width+padding-right**/
+div#calendar ul.dates li {
+    margin: 0px;
+    padding: 0px;
+    line-height: 15px;
+    vertical-align: top;
+    float: left;
+    list-style-type: none;
+    width: 11vw;
+    height: 9vw;
+    font-size: 11px;
+    background-color: whitesmoke;
+    color: #000;
+    text-align: center;
+    display: block;
+    border: 0.001em solid #b6b6b6;
+}
+
+:focus {
+    outline: none;
+}
+
+div.clear {
+    clear: both;
+}
+
+br {
+    display: block;
+    margin: 30px 0;
+}
+
+/*html {*/
+/*    overflow-x: hidden;*/
+/*}*/
+
